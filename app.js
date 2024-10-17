@@ -40,9 +40,9 @@ else if (foyeroptions === 'up'){
 else if (foyeroptions === 'left'){
     console.log('you go left into the library');
     console.log('you see a chest sitting on a desk there');
-    const libraryoptions = prompt('open the chest, or look around? ');
+    let libraryoptions = prompt('open the chest, or look around? ');
 
-    const founddoor = false;
+    let founddoor = false;
 
     if (libraryoptions === 'look around'){
         console.log('you discover a locked door!');
